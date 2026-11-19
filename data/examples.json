@@ -1,0 +1,152 @@
+[
+  {
+    "id": "E01",
+    "body": "The app crashes immediately on my iPhone 8 (iOS 15). Other staff are fine.",
+    "label": {
+      "action": "reply",
+      "reason": "English ticket. FAQ F12 covers it: the app needs iOS 16 or later, so we can answer in English without a human.",
+      "category": "bug",
+      "language": "en",
+      "priority": "P3"
+    },
+    "channel": "email",
+    "subject": "App crashes",
+    "received_at": "2026-09-21T09:00:00+00:00",
+    "customer_plan": "Basis"
+  },
+  {
+    "id": "E02",
+    "body": "Ons btw-nummer is veranderd. Kunnen jullie het nieuwe op onze facturen zetten?",
+    "label": {
+      "action": "reply",
+      "reason": "How to change invoice details is in FAQ F06. Reply in Dutch.",
+      "category": "billing",
+      "language": "nl",
+      "priority": "P4"
+    },
+    "channel": "email",
+    "subject": "Btw-nummer",
+    "received_at": "2026-09-21T09:30:00+00:00",
+    "customer_plan": "Plus"
+  },
+  {
+    "id": "E03",
+    "body": "We waren in augustus dicht wegens verbouwing. Kunnen we die maand terugkrijgen?",
+    "label": {
+      "action": "handoff",
+      "reason": "Refund request ('terugkrijgen' = get back). Client rule: refunds always go to a human.",
+      "category": "billing",
+      "language": "nl",
+      "priority": "P2"
+    },
+    "channel": "email",
+    "subject": "Terugbetaling",
+    "received_at": "2026-09-21T10:00:00+00:00",
+    "customer_plan": "Basis"
+  },
+  {
+    "id": "E04",
+    "body": "Hoe ruil ik een dienst met een collega?",
+    "label": {
+      "action": "reply",
+      "reason": "Dutch how-to question about swapping shifts, answered by FAQ F03. Reply in Dutch.",
+      "category": "question",
+      "language": "nl",
+      "priority": "P4"
+    },
+    "channel": "chat",
+    "subject": "Dienst ruilen",
+    "received_at": "2026-09-21T10:30:00+00:00",
+    "customer_plan": "Basis"
+  },
+  {
+    "id": "E05",
+    "body": "Graag een koppeling met Google Agenda voor de diensten.",
+    "label": {
+      "action": "reply",
+      "reason": "Feature request (Google Calendar sync). Acknowledge in Dutch and point to the roadmap (F10).",
+      "category": "feature_request",
+      "language": "nl",
+      "priority": "P4"
+    },
+    "channel": "form",
+    "subject": "Google Agenda",
+    "received_at": "2026-09-21T11:00:00+00:00",
+    "customer_plan": "Plus"
+  },
+  {
+    "id": "E06",
+    "body": "When I click Publish I get 'Something went wrong'. Next week's rota is not visible for staff.",
+    "label": {
+      "action": "handoff",
+      "reason": "One customer blocked from publishing: P2, needs an engineer.",
+      "category": "bug",
+      "language": "en",
+      "priority": "P2"
+    },
+    "channel": "email",
+    "subject": "Can't publish rota",
+    "received_at": "2026-09-21T11:30:00+00:00",
+    "customer_plan": "Plus"
+  },
+  {
+    "id": "E07",
+    "body": "Wat kost Plus voor 25 medewerkers?",
+    "label": {
+      "action": "reply",
+      "reason": "Price question answered by F05 (25 x €6 = €150 excl. VAT). Reply in Dutch.",
+      "category": "billing",
+      "language": "nl",
+      "priority": "P4"
+    },
+    "channel": "email",
+    "subject": "Prijs Plus",
+    "received_at": "2026-09-21T12:00:00+00:00",
+    "customer_plan": "Basis"
+  },
+  {
+    "id": "E08",
+    "body": "Verdubbel je geld in 7 dagen met ons cryptofonds.",
+    "label": {
+      "action": "close",
+      "reason": "Spam (crypto offer): close it.",
+      "category": "other",
+      "language": "nl",
+      "priority": "P4"
+    },
+    "channel": "email",
+    "subject": "Investeringskans",
+    "received_at": "2026-09-21T12:30:00+00:00",
+    "customer_plan": "Basis"
+  },
+  {
+    "id": "E09",
+    "body": "Ik wil graag inzage in alle persoonsgegevens die jullie over mij bewaren (AVG).",
+    "label": {
+      "action": "handoff",
+      "reason": "GDPR access request ('inzageverzoek', AVG = Dutch GDPR): always a human.",
+      "category": "other",
+      "language": "nl",
+      "priority": "P2"
+    },
+    "channel": "email",
+    "subject": "Inzageverzoek",
+    "received_at": "2026-09-21T13:00:00+00:00",
+    "customer_plan": "Plus"
+  },
+  {
+    "id": "E10",
+    "body": "Is er vanavond onderhoud gepland?",
+    "label": {
+      "action": "reply",
+      "reason": "Asks about planned maintenance tonight. Point to the status page (F11), in Dutch.",
+      "category": "question",
+      "language": "nl",
+      "priority": "P4"
+    },
+    "channel": "chat",
+    "subject": "Onderhoud",
+    "received_at": "2026-09-21T13:30:00+00:00",
+    "customer_plan": "Plus"
+  }
+]
